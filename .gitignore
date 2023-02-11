@@ -20,9 +20,13 @@ dist/
 *.jar
 
 # Maven
-target/
 dist/
-test-output/
+/target/*
+.classpath/*
+/target/
+/bin/
+/test-output/*
+/test-output/
 
 # JetBrains IDE
 .idea/
